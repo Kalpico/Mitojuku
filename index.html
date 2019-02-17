@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/ress.css">
+
+    <!-- Custom CSS -->
+    <!-- CSS を変更した際にはバージョン情報を更新する※クッキー対策 -->
+    <link rel="stylesheet" href="css/style.css?v=1.11">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- formrun -->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+
+    <!-- OGP -->
+    <!--<meta property="og:url" content="ページのURL" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:type" content="ページのタイプ">
+    <meta property="og:description" content="記事の抜粋" />
+    <meta property="og:image" content="画像のURL" />
+    <meta name="twitter:card" content="カード種類" />
+    <meta name="twitter:site" content="@Twitterユーザー名" />
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="appIDを入力">-->
+
+    <!-- google tracking code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134602394-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134602394-1');
+    </script>
+
+
+
+    <title>三戸塾</title>
+</head>
+<body data-spy="scroll" data-target="#navbar-responsive">
+
+<!-- Start Header -->
+<header>
+
+    <!-- bg-overlay -->
+    <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="header-nav navbar navbar-expand-md navbar-light bg-light fixed-top p-0">
+
+        <!-- header-info -->
+        <div class="header-info mt-2">
+            <a href="#" class="backToTop"><img src="img/logo2.png" alt="三戸塾" width="120" height="52"></a>
+            <p class="mb-0 ml-5 d-inline-block align-middle font-weight-bold">TEL：082-842-7772<br>mail：mitojuku310@gmail.com</p>
+        </div>
+        <!-- nav toggler -->
+        <button class="navbar-toggler ml-auto my-3" type="button" data-toggle="collapse" data-target="#navbar-responsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- nav list -->
+        <div id="navbar-responsive" class="nav-list collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a href="#about" class="nav-link font-weight-bold">三戸塾について</a></li>
+                <li class="nav-item"><a href="#result" class="nav-link font-weight-bold">進学実績</a></li>
+                <li class="nav-item"><a href="#lesson" class="nav-link font-weight-bold">授業のご案内</a></li>
+                <li class="nav-item"><a href="#trial" class="nav-link font-weight-bold">体験入塾</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link font-weight-bold">お問い合わせ</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link font-weight-bold">よくあるご質問</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link font-weight-bold">ブログ</a></li>
+            </ul>
+        </div> <!-- /nav list -->
+
+    </nav> <!-- /Navigation -->
+
+    <!-- キャッチコピー -->
+    <h1 class="text-center font-weight-bold mx-auto">学力の正確な把握・適切な指導と<br>塾長自身による全教科指導へのこだわり</h1>
+</header>
+<!-- /Header -->
+
+
+<!-- Start News -->
+<section class="news" id="news">
+    <div class="inner py-5">
+
+        <!-- news section title -->
+        <h2 class="section-title"><i class="far fa-file custom-color mr-1"></i>お知らせ</h2>
+
+        <!-- news list -->
+        <ul class="list-group font-weight-bold">
+
+            <!-- お知らせの追加の仕方
+            liタグを最後までまるごとコピペしてspanタグの前に日付、後に内容をかく -->
+            <li class="list-group-item">
+                2019/1/16
+                <span class="ml-3"></span><br class="d-md-none">
+                <span class="marker-yellow">新年度生募集開始。無料体験入塾随時受付中！</span>
+            </li>
+            <!-- ここはダミー。こんな感じで追加していく。
+            <li class="list-group-item">
+                2019/1/16
+                <span class="ml-3"></span><br class="d-md-none">
+                新年度生募集開始。無料体験入塾随時受付中！
+            </li>
+            -->
+            <!-- お知らせをスクロール表示したい時はcss/style.cssを開き「news-scroll」参照 -->
+        </ul>
+
+    </div>
+</section>
+<!-- /News  -->
+
+<!-- Start About  -->
+<section class="about" id="about">
+    <div class="inner py-5">
+
+        <!-- about section title -->
+        <h2 class="section-title"><i class="fas fa-pencil-alt custom-color mr-1"></i>三戸塾について</h2>
+
+        <!-- about message -->
+        <p class="about-message font-weight-bold"><i class="fas fa-quote-left custom-color"></i>「志望校に合格さえしてくれればそれでいい」という考えは持っておりません。中学校の定期テストは暗記力のある生徒なら、テスト範囲の内容を暗記するという努力を怠らなければ、良い点数を取ることが出来ます。しかし、暗記に頼った勉強に終始すると、その勉強法は高校入学後必ず限界を迎え、伸び悩む原因となります。<i class="fas fa-quote-right custom-color"></i></p>
+
+        <!-- advantages -->
+        <div class="advantages">
+
+            <div class="text-center">
+                <h3 class="section-subtitle">3つの強み</h3>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-around font-weight-bold text-center">
+                    <div class="advantage item-outline item-padding col-sm-8 col-lg-3">
+                        <i class="far fa-lightbulb custom-color mb-3"></i>
+                        <p>生徒の学力を正確に把握</p>
+                    </div>
+                    <div class="advantage item-outline item-padding col-sm-8 col-lg-3">
+                        <i class="far fa-lightbulb custom-color mb-3"></i>
+                        <p>生徒個々の状況に応じたキメの細かい対応</p>
+                    </div>
+                    <div class="advantage item-outline item-padding col-sm-8 col-lg-3">
+                        <i class="far fa-lightbulb custom-color mb-3"></i>
+                        <p>生徒との意思疎通</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /advantages -->
+
+        <!-- profile -->
+        <div class="profile text-center">
+
+            <div class="text-center">
+                <h3 class="section-subtitle">塾長：三戸庸行</h3>
+            </div>
+            <div class="container-fluid">
+                <div class="profile-content row justify-content-around">
+                    <img src="img/T_mito.png" alt="" width="176" height="217">
+                    <div class="item-outline item-padding col-12 col-md-8">
+                        <p class="text-left">
+                            学歴：同志社大学経済学部卒業<br>
+                            指導歴：31年<br>
+                            趣味：投釣り<br>
+                            大物釣りからシロギスの数釣りまで何でもこなします。<br>
+                            釣り雑誌「月間釣り画報・投げ釣りＱ＆Ａ」の元・質問回答者。<br>
+                            スポーツキャスティングでは現在も国内200ｍキャスターの一人。<br>
+                            過去には全日本スポーツキャスティング選手権大会の第1種目、第3種目、
+                            第5種目Ａでの優勝経験あり。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- btn profile -->
+            <a href="./about.html" class="btn btn-success mt-5" id="btn-about">保護者の皆様へごあいさつ</a>
+
+        </div> <!-- /profile -->
+
+    </div>
+</section>
+<!-- /About -->
+
+<!-- Start Result -->
+<section class="result" id="result">
+    <div class="inner py-5">
+
+        <!-- result section title -->
+        <h2 class="section-title"><i class="fas fa-book custom-color mr-1"></i>進学実績</h2>
+
+        <!-- result list -->
+        <ul class="list-group font-weight-bold">
+            <li class="list-group-item">
+                <p class="text-center mb-2"><i class="fas fa-school mr-1 custom-color"></i>県立高校</p>
+                <p>安古市高校、祇園北高校（理数科含む）、高陽高校、高陽東高校、国泰寺高校、皆実高校など</p>
+            </li>
+            <li class="list-group-item">
+                <p class="text-center mb-2"><i class="fas fa-school mr-1 custom-color"></i>市立高校</p>
+                <p>基町高校、舟入高校、沼田高校、市立広島工業高校、市立広島商業高校、美鈴が丘高校</p>
+            </li>
+            <li class="list-group-item">
+                <p class="text-center mb-2"><i class="fas fa-school mr-1 custom-color"></i>私立高校</p>
+                <p>崇徳高校（特別進学、進学）、広陵高校（I類、Ⅱ類）、近大附属東広島高校（特進）など</p>
+            </li>
+            <li class="list-group-item">
+                <p class="text-center mb-2"><i class="fas fa-school mr-1 custom-color"></i>国立高校</p>
+                <p>呉工業高等専門学校（機械）、広島高等商船学校（商船）</p>
+            </li>
+        </ul>
+        <!-- /result list -->
+
+        <!-- btn result -->
+        <div class="text-center">
+            <a href="./result.html" class="btn btn-success mt-5" id="btn-result">進学実績をもっとみる</a>
+        </div>
+
+        <!-- parent-voices -->
+        <div class="parent-voices mt-5">
+
+            <!-- 保護者の声を表示したいとき -->
+            <!-- １．ここのコメントアウトを解除 -->
+            <!-- <h2 class="section-title"><i class="far fa-comments custom-color mr-1"></i>保護者の声</h2> -->
+
+            <!-- parent-voice container -->
+            <div class="container-fluid">
+
+                <!-- ２．ここのコメントアウトを解除 -->
+                <!-- <div class="row mt-4 justify-content-center text-center">
+                    <div class="parent-voice col-12 col-lg-10 mb-4 item-padding">
+                        <i class="parent-voice-pin fas fa-map-pin fa-2x mb-3"></i>
+                        <p>これはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキストこれはダミーテキスト</p>
+                    </div>
+                    <div class="parent-voice col-12 col-lg-10 mb-4 item-padding">
+                        <i class="parent-voice-pin fas fa-map-pin fa-2x mb-3"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolorem alias minus dolorum ea dolore ut repellendus ab provident nobis et, illum in neque ipsa sapiente ducimus commodi reprehenderit. Facilis!</p>
+                    </div>
+                    <div class="parent-voice col-12 col-lg-10 mb-4 item-padding">
+                        <i class="parent-voice-pin fas fa-map-pin fa-2x mb-3"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolorem alias minus dolorum ea dolore ut repellendus ab provident nobis et, illum in neque ipsa sapiente ducimus commodi reprehenderit. Facilis!</p>
+                    </div>
+                </div> -->
+
+            </div> <!-- /parent-voice container -->
+
+            <!-- btn result -->
+            <!-- ３．ここのコメントアウトを解除 -->
+            <!-- <div class="text-center">
+                <a href="./result.html" class="btn btn-success mt-5">保護者の声をもっときいてみる</a>
+            </div> -->
+
+        </div> <!-- /parent-voices -->
+
+        <!-- voices -->
+        <div class="voices mt-5">
+
+            <h2 class="section-title"><i class="far fa-edit custom-color mr-1"></i>卒塾生が自主的に感想を書いてくれました!!</h2>
+
+            <!-- voice container -->
+            <div class="container-fluid">
+                <div class="row mt-4 text-center">
+                    <div class="col-4"><img class="img-student" src="img/student1.png" alt="生徒の声"></div>
+                    <div class="col-md-8">
+                        <p class="voice balloon item-padding text-left">
+                            <span class="marker-yellow">学校ではできないような数学の難しい問題ができて本当に楽しかったです。</span>定期テストのためにあんなにたくさんの楽しい問題がとけて、しあわせでしたー！！社会はやりたくなかったけど、先生のまとめプリントがあったから、８０点とれたんだと思ってます。めちゃくちゃ勉強したのに７０台だった時は次のテストすてかけたから、じゅくなかったら多分大変なことになっていたと思う・・・。たくさん勉強をおしえていただきありがとうございました。
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4 text-center">
+                    <div class="col-4"><img class="img-student" src="img/student2.png" alt="生徒の声"></div>
+                    <div class="col-md-8">
+                        <p class="voice balloon item-padding text-left">
+                            僕は中学1年生からこの塾に入りました。僕は小学生の時勉強をしていなくて、勉強ができませんでした。でも、<span class="marker-yellow">この塾に入ってからは、勉強ができるようになって勉強が楽しいと思うようになりました。</span>また、個人塾とは思えない授業数や、時間の効率で、さらに小学生まで教えています。僕はこの塾に入れて本当に幸運だと思いました。
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4 text-center">
+                    <div class="col-4"><img class="img-student" src="img/student3.png" alt="生徒の声"></div>
+                    <div class="col-md-8">
+                        <p class="voice balloon item-padding text-left">
+                            私は真じめなことが苦手で、本当に勉強ができませんでした。ですが、三戸塾に入り、他校で同じ志望校の人もいて、やる気が出ました。そして、<span class="marker-yellow">英語が得意になりました。塾に入る前の最低点が４７点だったのですが、塾に入って、ほぼ８０、９０点台をキープしてました。最高で９７点をとり、学年最高点をとれた経験があります。</span>そして、三戸先生は容しゃないところがありますが、逆にそのおかげで志望校にも受かることができたと思います。どこの塾よりも生徒思いであると自信を持って言えます（塾に入ると気持ちが分かると思います）！そしてたまにダジャレを言ってきます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-right mt-2">
+                    <p class="voice-note note text-left d-inline-block">*生徒の文面を原文のまま掲載しています。 </p>
+                </div>
+            </div> <!-- /voice container -->
+
+            <!-- btn result -->
+            <div class="text-center">
+                <a href="./result.html" class="btn btn-success mt-5">卒塾生の声をもっときいてみる</a>
+            </div>
+
+        </div> <!-- /voices -->
+
+    </div>
+</section>
+<!-- /Result -->
+
+<!-- Start Lesson -->
+<section class="lesson" id="lesson">
+    <div class="inner py-5">
+
+        <!-- about section title -->
+        <h2 class="section-title"><i class="fab fa-telegram custom-color mr-1"></i>授業のご案内</h2>
+
+        <!-- courses -->
+        <div class="courses">
+
+            <div class="text-center">
+                <h3 class="section-subtitle">個別指導</h3>
+            </div>
+            <!-- indivisual lesson -->
+            <table class="indivisual-lesson table table-bordered text-center align-middle">
+                <tbody>
+                    <tr>
+                        <th scope="col">小学生</th>
+                        <td>3,000円</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">中学生</th>
+                        <td>60分コース<br>
+                            6,600円（月4回の場合）</td>
+                    </tr>
+                    <tr>
+                        <td>90分コース<br>
+                            10,000円（月4回の場合）</td>
+                    </tr>
+                </tbody>
+            </table> <!-- /indivisual lesson -->
+            <div class="text-right">
+                <p class="lesson-note note text-left d-inline-block">*上記のほかにも諸費用等がかかりますので<br>必ずご確認ください。</p>
+            </div>
+
+            <!-- btn indivisual lesson -->
+            <div class="text-center mb-3">
+                <a href="./lesson.html" class="btn btn-success mt-1" id="btn-lesson">詳しくはこちら</a>
+            </div>
+
+            <!-- group-lesson -->
+            <div class="text-center">
+                <h3 class="section-subtitle">クラス指導</h3>
+            </div>
+            <table class="group-lesson table table-bordered text-center align-middle">
+                <tbody>
+                    <tr>
+                        <td>中1クラス</td>
+                        <td>8,000円 or 15,000円</td>
+                    </tr>
+                    <tr>
+                        <td>中2クラス</td>
+                        <td>16,000円</td>
+                    </tr>
+                    <tr>
+                        <td>中3クラス</td>
+                        <td>16,000円 or 21,000円</td>
+                    </tr>
+                </tbody>
+            </table> <!-- /group lesson -->
+            <div class="text-right">
+                <p class="lesson-note note text-left d-inline-block">*上記のほかにも諸費用等がかかりますので<br>必ずご確認ください。</p>
+            </div>
+
+            <!-- btn group lesson -->
+            <div class="text-center">
+                <a href="./lesson.html#group" class="btn btn-success mt-1">詳しくはこちら</a>
+            </div>
+
+        </div> <!-- /courses -->
+
+    </div>
+</section>
+<!-- /Lesson -->
+
+<!-- Start Trial -->
+<section class="trial" id="trial">
+    <div class="inner py-5">
+
+        <!-- trial section title -->
+        <h2 class="section-title"><i class="fas fa-user-friends custom-color mr-1"></i>体験入塾のすすめ</h2>
+        <p class="text-center ">入塾を検討中の方はまずは体験入塾として、当塾の授業に参加してみてください。</p>
+
+        <!-- trial container -->
+        <div class="container-fluid mt-4">
+            <div class="row justify-content-around">
+                <div class="col-md-4 mb-3">
+                    <div class="trial-text-decoration text-center mb-3"><p><i class="fas fa-running mr-1"></i>STEP. 1</p></div>
+                    <h3 class="text-center font-weight-bold">体験入塾希望のご連絡</h3>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="trial-text-decoration text-center mb-3"><p><i class="fas fa-running mr-1"></i>STEP. 2</p></div>
+                    <h3 class="text-center font-weight-bold">教材を来塾時にお渡し</h3>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="trial-text-decoration text-center mb-3"><p><i class="fas fa-running mr-1"></i>STEP. 3</p></div>
+                    <h3 class="text-center font-weight-bold">当日は筆記用具だけ!!</h3>
+                </div>
+            </div>
+        </div> <!-- /trial container -->
+
+        <!-- trial note -->
+        <div class="trial-note note">
+            <ol>
+                <li>クラス指導は通常通りのペースで行います。</li>
+                <li>中学生個別指導は希望の教科・単元について、小学生個別指導は算数・国語の２教科についての指導となります。</li>
+                <li>保護者の方から「どういったところが苦手なのか？｣｢塾の授業についていけそうか？」等のご質問をいただきましたら、気づいた点・改善点等を含め、体験入塾終了後にそのご質問にお答えするようにしていますが、当塾側から入塾を促すような連絡は行いません。どうぞその点はご安心ください。</li>
+                <li>ご検討の結果として入塾したい旨、ご連絡いただきましたら、保護者の方にご来塾いただき、入塾手順・今後の取り組み方針等をご説明させていただくことになります。</li>
+            </ol>
+        </div>
+
+    </div>
+</section>
+<!-- /Trial -->
+
+<!-- Start Contact -->
+<section class="contact" id="contact">
+    <div class="inner py-5">
+
+        <!-- contact section title -->
+        <div class="text-center">
+            <h2 class="section-title"><i class="far fa-envelope custom-color mr-1"></i>お問い合わせ</h2>
+            <p>Mailを確認しましたらこちらからご連絡いたします。</p>
+        </div>
+
+        <!-- contact container -->
+        <div class="container-fluid">
+
+            <!-- contact form -->
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="form-mitojuku">
+                        <form class="formrun" action="https://form.run/api/v1/r/p3ld2e4sjxkmcy7dl4wol5yl" method="post">
+                            <div class="row">
+
+                                <!-- name field -->
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="name" id="name" type="text" class="form-control" placeholder="[必須]お名前" data-formrun-required>
+                                        <div data-formrun-show-if-error="name">お名前を入力してください</div>
+                                    </div>
+                                </div>
+
+                                <!-- email field -->
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="email" id="email" type="email" class="form-control" placeholder="[必須]メールアドレス" data-formrun-type="email" data-formrun-required>
+                                        <div data-formrun-show-if-error="email" class="text-muted">メールアドレスを正しく入力してください</div>
+                                    </div>
+                                </div>
+
+                                <!-- subject field -->
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="subject" id="subject" type="subject" class="form-control" placeholder="[必須]件名" data-formrun-type="subject" data-formrun-required>
+                                        <div data-formrun-show-if-error="subject" class="text-muted">件名を入力してください</div>
+                                    </div>
+                                </div>
+
+                                <!-- tel field -->
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="tel" id="tel" type="tel" class="form-control" placeholder="電話番号" data-formrun-type="tel">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <!-- comment field -->
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="[必須]お問い合わせ内容" data-formrun-required></textarea>
+                                        <div data-formrun-show-if-error="comments" class="text-muted">お問い合わせ内容を入力してください</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 text-right">
+                                    <button class="btn btn-success btn-submit" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">お問い合わせ / 体験授業のお申込み</button>
+                                </div>
+                            </div>
+                            <!-- ボット投稿をブロックするためのタグ -->
+                            <div class="_formrun_gotcha">
+                                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- /contact form -->
+            <div class="text-right mt-3">
+                <p class="contact-note note text-left d-inline-block">
+                    Gmailからのメールを受信拒否設定されている方は解除をお願い致します。<br>
+                    １週間以内にこちらから連絡がない場合はお手数ですがTEL: 082-842-7772 までご連絡ください。
+                </p>
+            </div>
+
+        </div> <!-- /contact container -->
+
+        <!-- access section title -->
+        <h2 class="section-title mt-5"><i class="fas fa-map-marker-alt custom-color mr-1"></i>地図</h2>
+        <p>広島県広島市安佐北区口田南８丁目１−３ ミツヤ文具店2階（下岩の上バス停前）</p>
+
+        <div class="iframe-wrap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.4376154189836!2d132.504379813903!3d34.46642118049522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9c36a6fc0ce9%3A0x5d44ddfa0c271be6!2z44CSNzM5LTE3MzMg5bqD5bO255yM5bqD5bO25biC5a6J5L2Q5YyX5Yy65Y-j55Sw5Y2X77yY5LiB55uu77yR4oiS77yT!5e0!3m2!1sja!2sjp!4v1549548390181" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!-- access container -->
+        <div class="container-fluid mt-4">
+            <div class="row justify-content-center">
+                <div class="col-6"><img src="img/DSCN0022_1_三戸塾外観.JPG" alt="三戸塾の写真"></div>
+                <div class="col-6">
+                    <img src="img/DSCN0019.JPG" alt="教室内の様子">
+                    <p>三戸塾外観と教室内の様子です。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Contact -->
+
+<!-- Start FAQ -->
+<section class="faq" id="faq">
+    <div class="inner py-5">
+
+        <!-- faq section title -->
+        <h2 class="section-title"><i class="far fa-question-circle custom-color"></i>よくあるご質問</h2>
+
+        <!-- faqs -->
+        <div class="faqs card">
+
+            <div class="qa card-body">
+                <div class="card-title">
+                    <h3>Q1. 「三戸塾は勉強のできる子が通う塾と聞きましたが、うちの子でも大丈夫なんでしょうか？」</h3>
+                    <p class="note qa-note text-right mr-4 mb-2">※一番多く寄せられるご質問です</p>
+                </div>
+                <p class="card-text">A1. 三戸塾には入塾テストがありません。実際に体験入塾として授業に参加した後、継続して通塾してみたいという生徒は原則全員受け入れています。なお、クラス指導に関しては、当初、授業進度のテンポ・学習内容のレベル等に戸惑う生徒がいるのは確かですが、個々の現状の学力を考慮したうえで全体の理解度を調整しながら指導を進めていきますので、ほとんどの生徒は指導のペースに慣れてきます。</p>
+            </div>
+            <hr>
+            <div class="qa card-body">
+                <h3 class="card-title">Q2. 「クラス指導に参加したいが、あいにく指定来塾日のうち一日が学校外のクラブ活動等と重なっていて行くことができないのですが……。」</h3>
+                <p class="card-text">A2. クラス指導来塾日以外の日に、個別指導（17:30～19:00）で来塾可能であれば、振替指導で対応いたします。その場合でも、月謝についてはクラス月謝定額のままで、月謝の追加請求はございません。</p>
+            </div>
+            <hr>
+            <div class="qa card-body mb-3">
+                <h3 class="card-title">Q3. 「中学生個別指導で週の通塾回数はそのままで、教科数を増やすとなると、教科数に応じて月謝が高くなるのですか？」</h3>
+                <p class="card-text">A3. 塾長・三戸が全教科指導に携わっていますので、週の通塾回数が変わらない限り、教科数が増えても月謝はそのままです。</p>
+            </div>
+
+        </div> <!-- faqs -->
+
+    </div>
+</section>
+<!-- /FAQ -->
+
+<!-- Start Blog -->
+<section class="blog" id="blog">
+    <div class="inner py-5">
+
+        <!-- blog section title -->
+        <h2 class="section-title"><i class="fas fa-blog custom-color mr-2"></i>塾長ブログ</h2>
+
+        <p class="text-left text-sm-center">ブログをはじめました。<br>以下のリンクをクリックしていただくと、別サイトへつながります。</p>
+        <!-- btn blog -->
+        <div class="text-center">
+            <a href="http://blog.livedoor.jp/mitojuku/" target="_blank" rel="noopener noreferrer" class="btn btn-success mt-5">塾長先生の広島投げ釣り日記</a>
+            <p class="blog-note note">別ウィンドウが開きます</p>
+        </div>
+    </div>
+</section>
+<!-- /Blog -->
+
+<!-- Start Footer -->
+<footer class="py-3">
+
+    <!-- footer container -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-sm-4">
+                <img class="backToTop" src="img/logo2.png" alt="三戸塾">
+            </div>
+            <div class="col-sm-4">
+                <ul class="navbar-nav mx-auto">
+                <li class="nav-item small"><a href="#news" class="nav-link font-weight-bold">三戸塾について</a></li>
+                <li class="nav-item small"><a href="#result" class="nav-link font-weight-bold">進学実績</a></li>
+                <li class="nav-item small"><a href="#lesson" class="nav-link font-weight-bold">授業のご案内</a></li>
+                <li class="nav-item small"><a href="#trial" class="nav-link font-weight-bold">体験入塾</a></li>
+                <li class="nav-item small"><a href="#contact" class="nav-link font-weight-bold">お問い合わせ</a></li>
+                <li class="nav-item small"><a href="#faq" class="nav-link font-weight-bold">よくあるご質問</a></li>
+                <li class="nav-item small"><a href="#blog" class="nav-link font-weight-bold">ブログ</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="small text-center">&copy; 三戸塾 2016 All Rights Reserved</p>
+    </div>
+
+</footer>
+<!-- /Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+</body>
+</html>
