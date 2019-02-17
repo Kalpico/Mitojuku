@@ -1,0 +1,211 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/*********************
+        page
+**********************/
+
+body {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: #38b9a8;
+    position: relative;
+    margin: 0 auto;
+    top: 5px;
+}
+
+.section-subtitle {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.section-subtitle::before {
+    content: '';
+    display: block;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #38b9a8;
+    position: relative;
+    top: 1.8rem;
+    left: -1.5rem;
+}
+
+.section-subtitle::after {
+    content: '';
+    display: block;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #38b9a8;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: relative;
+    top: -2.1rem;
+    right: -1.5rem;
+}
+
+.note {
+    color: #666666;
+    font-size: 0.8rem;
+}
+
+.custom-color {
+    color: #38b9a8;
+}
+
+.custom-fontsize {
+    font-size: 1.3rem;
+}
+
+.marker-yellow {
+    background: linear-gradient(transparent 60%, yellow 0%);
+    font-weight: bold;
+}
+
+/*********************
+        header
+**********************/
+
+header h1 {
+    position: relative;
+    top: 10rem;
+}
+
+/* header-info */
+
+.header-nav {
+    flex-flow: row wrap;
+}
+
+.header-info {
+    width: 100%;
+}
+
+.header-info>a {
+    margin-left: 10%;
+}
+
+.header-info>p {
+    margin-left: 100px;
+}
+
+/*********************
+        about
+**********************/
+
+/* greeting */
+
+/* profile */
+
+.profile-content>img {
+    margin-bottom: 2rem;
+}
+
+/*********************
+        lesson
+**********************/
+
+/*********************
+        footer
+**********************/
+
+
+/* media query */
+
+@media (max-width: 767px) {
+
+    /* header-nav */
+    .header-info {
+        width: 85%;
+    }
+
+    .nav-list li {
+        margin-left: 8%;
+    }
+
+    /* result */
+    .voices .balloon {
+        margin-top: 2rem;
+    }
+    .voices .balloon::before {
+        content: '';
+        display: block;
+        border-top: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #333333;
+        border-left: 20px solid transparent;
+        position: absolute;
+        top: -7px;
+        left: 60px;
+    }
+
+    .voices .balloon::after {
+        content: '';
+        display: block;
+        border-top: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid white;
+        border-left: 20px solid transparent;
+        position: absolute;
+        top: -6px;
+        left: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* header-info */
+    .header-info img {
+        width: 60px;
+        height: 26px;
+        margin-top: .5rem;
+    }
+
+    .header-info>p {
+        font-size: 0.8rem;
+        margin-top: 0.5em;
+        margin-left: 1rem !important;
+    }
+
+}

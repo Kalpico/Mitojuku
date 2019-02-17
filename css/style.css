@@ -1,0 +1,467 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/*********************
+        page
+**********************/
+
+body {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: #38b9a8;
+    position: relative;
+    margin: 0 auto;
+    top: 5px;
+}
+
+.section-subtitle {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.section-subtitle::before {
+    content: '';
+    display: block;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #38b9a8;
+    position: relative;
+    top: 1.8rem;
+    left: -1.5rem;
+}
+
+.section-subtitle::after {
+    content: '';
+    display: block;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #38b9a8;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: relative;
+    top: -2.1rem;
+    right: -1.5rem;
+}
+
+.item-outline {
+    border: 1px solid #333333;
+    border-radius: 1rem;
+}
+
+.note {
+    color: #666666;
+    font-size: 0.8rem;
+}
+
+.item-padding {
+    padding: 1rem;
+}
+
+.custom-color {
+    color: #38b9a8;
+}
+
+.marker-yellow {
+    background: linear-gradient(transparent 60%, yellow 0%);
+    font-weight: bold;
+}
+
+/*********************
+        header
+**********************/
+
+header {
+    height: 600px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .bg-overlay {
+    background-color: rgba(0, 0, 0, .15);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 600px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color:rgba(0, 0, 0, .6) !important;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color:rgba(0, 0, 0, .8) !important;
+}
+
+header .bg-light {
+    background-color: rgba(55, 179, 121, 0.9) !important;
+}
+
+header h1 {
+    position: relative;
+    top: 15rem;
+    line-height: 5rem;
+    color: #ffffff;
+    max-width: 980px;
+}
+
+/* header-info */
+
+.header-nav {
+    flex-flow: row wrap;
+}
+
+.header-info {
+    width: 100%;
+}
+
+.header-info>a {
+    margin-left: 10%;
+}
+
+.header-info>p {
+    margin-left: 100px;
+}
+
+/*********************
+        news
+**********************/
+
+/* news-scroll */
+/* newsの数が3~4くらいになってきたらスクロール表示も可能 */
+/* .news ul {
+    overflow-y: scroll;
+    height: 140px;
+} */
+
+.news li {
+    padding: 0.5rem 1rem;
+}
+
+/*********************
+        about
+**********************/
+
+.about {
+    background-color: rgba(242, 242, 242, .5);
+}
+
+/* advantages */
+
+.advantage {
+    margin-bottom: 2rem;
+}
+
+.advantage i {
+    font-size: 2rem;
+}
+
+/* profile */
+
+.profile-content>img {
+    margin-bottom: 2rem;
+}
+
+/* result */
+
+.parent-voice {
+    border: 5px solid #ffffff;
+    border-radius: 3rem;
+    background-color: rgba(255, 242, 66, 0.658);
+}
+
+.parent-voice-pin {
+    color: rgb(207, 63, 53);
+}
+
+.parent-voice p {
+    width: 90%;
+    margin: auto;
+}
+
+.img-student {
+    width: 65%;
+    height: auto;
+    min-width: 140px;
+}
+
+.voices .balloon {
+    border: 1px solid #333333;
+}
+
+.voices .balloon::before {
+    content: '';
+    display: block;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #333333;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    left: -25px;
+}
+
+.voices .balloon::after {
+    content: '';
+    display: block;
+    border-top: 20px solid transparent;
+    border-right: 20px solid white;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: 17px;
+    left: -24px;
+}
+
+/*********************
+        lesson
+**********************/
+
+.lesson {
+    background-color: rgba(242, 242, 242, .5);
+}
+
+.lesson table {
+    font-weight: bold;
+}
+
+.lesson td,
+.lesson th {
+    border: 2px solid #999999;
+}
+
+/* indivisual lesson */
+
+.indivisual-lesson th {
+    vertical-align: middle;
+}
+
+/*********************
+        trial
+**********************/
+
+.trial-text-decoration {
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #ffffff;
+    background-color: #38b9a8;
+}
+
+.trial-text-decoration p {
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.trial-text-decoration i {
+    color: #ffffff;
+}
+
+.trial-text-decoration+h3 {
+    font-size: 1rem;
+    border: 3px solid #38b9a8;
+    border-top: none;
+    padding: 2rem 0;
+}
+
+/*********************
+        contact
+**********************/
+
+.contact {
+    background-color: rgba(242, 242, 242, .5);
+}
+
+.iframe-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* = height ÷ width × 100 */
+}
+
+.iframe-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact img {
+    width: 100%;
+    height: auto;
+}
+
+/*********************
+        faq
+**********************/
+
+.faq .qa h3 {
+    font-size: 1.3rem;
+}
+
+.faq .qa .card-text {
+    font-size: 1.1rem;
+}
+
+
+
+/*********************
+        blog
+**********************/
+
+.blog {
+    background-color: rgba(242, 242, 242, .5);
+}
+
+
+/*********************
+        footer
+**********************/
+
+footer li {
+    margin-left: auto;
+}
+
+footer li a {
+    padding: 0.25rem 0 !important;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
+
+/*********************
+    media query
+**********************/
+
+@media (max-width: 767px) {
+
+    /* header */
+    header {
+        height: 400px;
+    }
+
+    header .bg-overlay {
+        height: 400px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        top: 10rem;
+        line-height: 3rem;
+    }
+
+    /* header-nav */
+    .header-info {
+        width: 85%;
+    }
+
+    .nav-list li {
+        margin-left: 8%;
+    }
+
+    /* result */
+    .voices .balloon {
+        margin-top: 2rem;
+    }
+
+    .voices .balloon::before {
+        content: '';
+        display: block;
+        border-top: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #333333;
+        border-left: 20px solid transparent;
+        position: absolute;
+        top: -7px;
+        left: 60px;
+    }
+
+    .voices .balloon::after {
+        content: '';
+        display: block;
+        border-top: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid white;
+        border-left: 20px solid transparent;
+        position: absolute;
+        top: -6px;
+        left: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* header */
+    header {
+        height: 350px;
+    }
+
+    header .bg-overlay {
+        height: 350px;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        top: 10rem;
+        line-height: 3rem;
+    }
+
+    /* header-info */
+    .header-info img {
+        width: 60px;
+        height: 26px;
+        margin-top: .5rem;
+    }
+
+    .header-info>p {
+        font-size: 0.8rem;
+        margin-top: 0.5em;
+        margin-left: 1rem !important;
+    }
+
+}
